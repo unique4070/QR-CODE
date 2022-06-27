@@ -1,0 +1,69 @@
+/*Reset CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*styling class selector*/
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    margin: 0;
+}
+
+.main{
+    margin: 6.5rem auto;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    align-items: center;
+    width: 300px;
+    height: 450px;
+}
+.attribution{
+    font-size: 12px;
+    text-align: center;
+    position: fixed;
+    top: 600px;
+    left: 535px;
+}
+.attribution a{
+    color: hsl(228, 24%, 30%);
+}
+
+
+/*styling elements selector*/
+h3{
+    color: hsl(218, 44%, 22);
+    text-align: center;
+    margin: 30px 10px 0px 15px;
+    font-family: 'Outfit',sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+
+}
+p{
+    color:hsl(218, 44%, 22%);
+    text-align: center;
+    margin: 20px 20px 30px 15px;
+    font-size: 1rem;
+    font-family: 'Outfit',sans-serif;
+    font-weight: 400;
+    
+}
+
+/*styling image*/
+img{
+    width:90%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 15px;
+    right: 15px;
+    border-radius: 20px;
+    padding-top: 10px;
+    
+}
